@@ -16,6 +16,6 @@ public class SumNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(printAdd(3214));
+        System.out.println("Sum of the digits is " + printAdd(3214));
     }
 }
