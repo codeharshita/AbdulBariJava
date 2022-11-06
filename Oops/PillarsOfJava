@@ -1,0 +1,34 @@
+There are basically four main pillars of Java>:-
+
+1.Abstraction:- Simply means hiding the internal details and only showing the
+                required thing to the user.
+                For Example:- Consider a man driving a car, while driving he
+                focus on using of steering, gear, accelerator etc.He does not
+                require to know the inner mechanism of the car.
+
+
+2.Encapsulation:- Boxing the things or data into a single unit or section.
+                   Encapsulates whole mechanism/code into a single unit.
+
+                   For Example:-  Complete television is single box where all the
+                   mechanism are hidden inside the box all are capsuled.
+
+
+
+3.Inheritance:- Enhancing the model by adding new features coming from
+                the previous features.Reusing the features of the
+                existing class-objects.
+
+                It is also known as specialization.
+
+                 For Example  A old style television (idiot box) is transformed with
+                 extra features into slim and smart television where it
+                 re-used the properties of old television.
+
+4.Polymorphism:- The things are basically generalized through a single group.
+                 Polymorphism is a concept in which we can execute a single operation in
+                 different ways.
+                 polymorphism is same as generalization.
+
+                 tv->Samsung/Sony etc
+                 cars->Hyundai/Suzuki etc.
