@@ -48,5 +48,8 @@ public class RectangleTest2 {
         System.out.println(r.getLength());
         System.out.println(r.area() + " is the area. ");
         System.out.println(r.peri() + " is the perimeter.");
+        System.out.println(r.getLength());
+        System.out.println(r.getBreadth());
+        
     }
 }
