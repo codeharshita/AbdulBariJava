@@ -43,6 +43,7 @@ public class RectangleTest2 {
         r.setBreadth(2);
         r.setLength(10);
 
+        System.out.println(r.isSquare());
         System.out.println(r.getBreadth());
         System.out.println(r.getLength());
         System.out.println(r.area() + " is the area. ");
