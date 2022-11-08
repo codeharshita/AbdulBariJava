@@ -1,7 +1,7 @@
 public class RectangleTest {
 
     private int length;
-    public int breadth;
+    private int breadth;
 
     public int area() {
         return length * breadth;
