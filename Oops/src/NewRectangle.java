@@ -1,22 +1,27 @@
 public class NewRectangle {
+    //Global/instance variables.
     int length;
     int breadth;
 
+    //Non-parameterized constructors.
     public NewRectangle() {
         length = 10;
         breadth = 5;
     }
 
+    //method
     public int area() {
         return length * breadth;
     }
 
+    //parameterized-constructor
     public NewRectangle(int l, int b) {
         length = l;
         breadth = b;
 
     }
 
+    //method overloading.
     public int area(int l, int b) {
         return l * b;
     }
