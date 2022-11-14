@@ -14,8 +14,8 @@ public class Bicycle {
     public static void main(String[] args) {
 
         /* Here we can say that
-        Bicycle class has a RoboBike class
-        So it is a HAS-A relationship.
+        Bicycle class has a object of robobike class
+        So it is a HAS-A relationship class.
         * */
         RoboBike trb = new RoboBike();
         System.out.println(trb.name);
