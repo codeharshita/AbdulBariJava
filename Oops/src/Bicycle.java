@@ -1,4 +1,9 @@
 //Class implementation.
+class RoboBike {
+    String name = "HONDAKO";
+    int wheel = 4;
+}
+
 public class Bicycle {
     static int wheels = 2;
 
@@ -7,6 +12,10 @@ public class Bicycle {
     }
 
     public static void main(String[] args) {
+        RoboBike trb = new RoboBike();
+        System.out.println(trb.name);
+        System.out.println(trb.wheel);
+
         System.out.println("Bicycle has " + wheels + " wheels.");
         stop();
     }
