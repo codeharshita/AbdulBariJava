@@ -1,6 +1,6 @@
 //Class implementation.
 class RoboBike {
-    String name = "HONDAKO";
+     String name = "HONDAKO";
     int wheel = 4;
 }
 
@@ -12,6 +12,11 @@ public class Bicycle {
     }
 
     public static void main(String[] args) {
+
+        /* Here we can say that
+        Bicycle class has a RoboBike class
+        So it is a HAS-A relationship.
+        * */
         RoboBike trb = new RoboBike();
         System.out.println(trb.name);
         System.out.println(trb.wheel);
