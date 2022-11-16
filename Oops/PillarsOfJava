@@ -32,3 +32,11 @@ There are basically four main pillars of Java>:-
 
                  tv->Samsung/Sony etc
                  cars->Hyundai/Suzuki etc.
+           
+           //Famous inerview questions.
+                 
+Q1} Can I access the static methods by using object-refernce??->Yes we can access, but it is not 
+		  considered as a good practise. This should be avoided.
+		   a.sum();
+Q2} Can we overload the main method in jAVA?
+Yes we can. But JVM will recognize only psvm signature with String[] args.
