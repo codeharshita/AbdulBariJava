@@ -35,7 +35,7 @@ public class WrapperClassConcept {
         System.out.println(h + 34);
 
         String b = "400AD";
-        //Exception will be thrown -> For input string.
+        //Exception will be thrown -> For input string beacause string is having alphanumeric value.
         int g = Integer.parseInt(b);
         System.out.println(g);
 
