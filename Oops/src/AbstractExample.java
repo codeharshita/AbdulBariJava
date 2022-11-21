@@ -32,7 +32,6 @@ class Rectangle1 extends Shape1 {
     }
 
 }
-
 public class AbstractExample {
     public static void main(String[] args) {
 
