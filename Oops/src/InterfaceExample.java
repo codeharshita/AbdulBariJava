@@ -9,7 +9,7 @@ interface Test3 {
         System.out.println("This is method 3.");
     }
 }
-
+//concrete class.
 class MyTest implements Test3 {
     @Override
     public void meth1() {
@@ -27,6 +27,9 @@ public class InterfaceExample {
         MyTest t = new MyTest();
         t.meth1();
         t.meth2();
+
+        System.out.println(Test3.X);
+        Test3.meth3();
 
     }
 }
