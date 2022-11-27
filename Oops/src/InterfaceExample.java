@@ -1,7 +1,7 @@
 interface Test3 {
     int X = 56;// this static and final.
 
-    void meth1();
+    public void meth1();
 
     void meth2();
 
@@ -9,6 +9,13 @@ interface Test3 {
         System.out.println("This is method 3.");
     }
 }
+
+interface TestNew1 extends Test3 {
+    public static void meth4() {
+        System.out.println("This is the method 4.");
+    }
+}
+
 //concrete class.
 class MyTest implements Test3 {
     @Override
@@ -30,6 +37,8 @@ public class InterfaceExample {
 
         System.out.println(Test3.X);
         Test3.meth3();
+
+        TestNew1.meth4();
 
     }
 }
