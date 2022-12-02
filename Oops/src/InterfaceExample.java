@@ -1,6 +1,8 @@
 interface Test3 {
     int X = 56;// this static and final.
 
+
+    //abstarct method.
     public void meth1();
 
     void meth2();
