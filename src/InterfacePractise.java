@@ -4,7 +4,7 @@ interface Test {
     void meth2();
 }
 
-class MyTest implements Test {
+class TryWithResourcesTest implements Test {
     public void meth1() {
         System.out.println("This is meth 1.");
     }
@@ -21,7 +21,7 @@ class MyTest implements Test {
 public class InterfacePractise {
     public static void main(String[] args) {
         Test t; // Reference of the interface
-        t = new MyTest(); // object of the MyTest class
+        t = new TryWithResourcesTest(); // object of the TryWithResourcesTes class
 
         // Test t = new MyTest();  ...Dynamic Method Dispatch.
         t.meth1();
