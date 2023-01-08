@@ -21,7 +21,8 @@ class TryWithResourcesTest implements Test {
 public class InterfacePractise {
     public static void main(String[] args) {
         Test t; // Reference of the interface
-        t = new TryWithResourcesTest(); // object of the TryWithResourcesTes class
+        t = new TryWithResourcesTest(); // object of the TryWithResourcesTes
+        // class
 
         // Test t = new MyTest();  ...Dynamic Method Dispatch.
         t.meth1();
