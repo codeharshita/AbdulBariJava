@@ -5,7 +5,7 @@ public class SetInterfaceExamples {
         LinkedHashSet<String> lhs = new LinkedHashSet<>();
         lhs.add("Hyundai");
         lhs.add("Santro");
-        lhs.add("Nano");
+        lhs.add("INano");
         lhs.add("Suzuki");
         lhs.add("Suzuki");
         for (String str : lhs) {
